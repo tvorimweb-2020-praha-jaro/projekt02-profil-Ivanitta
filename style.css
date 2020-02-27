@@ -16,4 +16,105 @@ html { box-sizing: border-box; }
 
 body {
     background-color: #bdc3c7;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    margin:0;
+}
+
+.profil{
+    background-color: #31363b;
+    box-shadow: 2px 5px 5px rgb(99, 97, 97);
+    width: 250px;
+}
+
+h1{
+    font-family: 'Montserrat';
+    font-size: 23px;
+    color: white;
+    text-align: center; 
+    padding-top: 10px;  
+    padding-bottom: 20px ;
+    margin:0;
+}
+
+p{
+    font-family: 'Source Sans Pro';
+    color: #bdc3c7;
+    padding: 5px;
+    font-size: small;
+    margin:0;
+}
+
+.foto{
+    width: 250px;
+    position: relative;
+}
+
+.logo{
+    background-color: #b92e81;
+    border-radius: 50%;
+    box-shadow: -3px 4px 3px rgb(41, 40, 40);
+    position: absolute;
+    top: 180px;
+    left: 210px;
+}
+
+.obsah{
+    max-width: 250px;
+    padding: 20px 20px;
+}
+
+li{
+    display: inline-block;
+}
+
+.odkazy{
+    font-family: 'Montserrat';
+    font-variant: small-caps;
+    font-size: 18px;
+    
+    box-sizing: inherit;
+    margin:0;
+    padding-inline-start:0;
+    text-align: center;
+}
+
+.portfolio{
+    width:100%;
+    border-top: 1px solid #3f464d;
+}
+
+.portfolio a:hover,
+.portfolio a:focus{
+    background-color:#e74c3c;
+    min-width: 250px;
+    color: white;
+}
+
+.facebook,
+.twitter{
+    width:50%;
+    border-top: 1px solid #3f464d;
+}
+
+.facebook a:hover,
+.facebook a:focus{
+    background-color: #3b5998;
+    color: white;
+    min-width: 125px;
+}
+
+.twitter a:hover,
+.twitter a:focus{
+    background-color: #1da1f2;
+    color: white;
+    min-width: 125px;
+}
+
+a{
+    display: inline-block;
+    color: #bdc3c7;
+    text-decoration: none;
+    padding: 15px 0;
 }
