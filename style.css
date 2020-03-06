@@ -26,13 +26,14 @@ body {
     background-color: #31363b;
     box-shadow: 2px 5px 5px rgb(99, 97, 97);
     width: 250px;
+    position: relative;
 }
 
 h1{
     font-family: 'Montserrat';
     font-size: 23px;
     color: white;
-    text-align: center; 
+    text-align: left; 
     padding-top: 10px;  
     padding-bottom: 20px ;
     margin:0;
@@ -48,7 +49,6 @@ p{
 
 .foto{
     width: 250px;
-    position: relative;
 }
 
 .logo{
@@ -56,8 +56,8 @@ p{
     border-radius: 50%;
     box-shadow: -3px 4px 3px rgb(41, 40, 40);
     position: absolute;
-    top: 180px;
-    left: 210px;
+    top: 140px;
+    left: 170px;
 }
 
 .obsah{
@@ -71,9 +71,9 @@ li{
 
 .odkazy{
     font-family: 'Montserrat';
-    font-variant: small-caps;
-    font-size: 18px;
-    
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
     box-sizing: inherit;
     margin:0;
     padding-inline-start:0;
@@ -113,7 +113,7 @@ li{
 }
 
 a{
-    display: inline-block;
+    display: block;
     color: #bdc3c7;
     text-decoration: none;
     padding: 15px 0;
